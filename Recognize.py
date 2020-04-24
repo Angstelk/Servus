@@ -20,7 +20,6 @@ import struct
 import wave 
 import time
 import os
-import librosa
 import numpy as np
 
 
@@ -28,8 +27,8 @@ import numpy as np
 
 
 #SETTINGS
-saved_model_path = "/home/apeiron/Servus/modelCNN"
-wav_file_path = "/home/apeiron/Servus/rec.wav"
+saved_model_path = "/home/pi/Servus/modelCNN"
+wav_file_path = "/home/pi/Servus/modelCNN"
 #silence treshold
 TRESHOLD = 15
 SAMPLE_RATE = 16000
